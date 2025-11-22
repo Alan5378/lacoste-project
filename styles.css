@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.nav {
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 0.04em;
+}
+.current{
+    color:green;
+}
