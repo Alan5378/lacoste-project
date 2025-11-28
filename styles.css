@@ -12,6 +12,27 @@ body {
     line-height: 1.0;
     letter-spacing: 0.04em;
 }
+.nav-text{
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-evenly;
+  left: 250px;
+  border: 10px;
+  padding: 10px;
+  
+}
+
 .current{
     color:green;
+}
+
+.image2{
+    left: 23%;
+    position: relative;
+}
+
+.image1{
+  left: 24%;
+  position: relative;
 }
