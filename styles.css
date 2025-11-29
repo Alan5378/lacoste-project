@@ -11,6 +11,7 @@ body {
     font-size: 16px;
     line-height: 1.0;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .nav-text{
   position: relative;
@@ -38,8 +39,8 @@ font-weight: 300;
 letter-spacing: 2%;
 line-height: 36px;
 position: absolute;
-left: 26%;
-top: 130px;
+left: 27.5%;
+top: 460px;
 display: flex;
 }
 
@@ -48,5 +49,42 @@ display: flex;
   left: 24%;
   position: relative;
   text-align: center;
+}
+
+.button1{
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: azure;
+  
+  left: 518px;
+  position: absolute;
+  display: flex;
+  background-color: darkgreen;
+  top: 590px;
+  width: 167px;
+  height: 62px;
+  text-align: center;
+  size: 16px;
+  line-height: 32px;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+  align-items: center;
+  
+}
+
+.title-text{
+  font-weight: 400;
+  size: 28px;
+  width: 264px;
+  height: 82px;
+  position: relative;
+  top: 140px;
+  left: 510px;
+  letter-spacing: 0%;
+  line-height: 100%;
+}
+
+.part1{
+  color: darkgreen;
 }
 
