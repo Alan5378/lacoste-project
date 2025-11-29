@@ -17,10 +17,9 @@ body {
   display: flex;
   margin-left: 20px;
   justify-content: space-evenly;
-  left: 250px;
+  left: 200px;
   border: 10px;
   padding: 10px;
-  
 }
 
 .current{
@@ -32,7 +31,22 @@ body {
     position: relative;
 }
 
+.text1{
+width: 387px;
+height: 136px;
+font-weight: 300;
+letter-spacing: 2%;
+line-height: 36px;
+position: absolute;
+left: 26%;
+top: 130px;
+display: flex;
+}
+
+
 .image1{
   left: 24%;
   position: relative;
+  text-align: center;
 }
+
