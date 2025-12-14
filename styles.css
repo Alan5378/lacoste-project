@@ -1,7 +1,21 @@
 body {
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    border-color: lightgrey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  img{
+    display:block ;
+    width: 481px;
+    height: 412px;
+
+    object-fit: cover;
+  }
 
 .nav {
     text-transform: uppercase;
@@ -16,7 +30,6 @@ body {
 .nav-text{
   position: relative;
   display: flex;
-  margin-left: 20px;
   justify-content: space-evenly;
   left: 200px;
   border: 10px;
@@ -86,5 +99,16 @@ display: flex;
 
 .part1{
   color: darkgreen;
+}
+
+.container{
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+}
+
+a, li{
+  list-style: none;
+  text-decoration: none;
 }
 
