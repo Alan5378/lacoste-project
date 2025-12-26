@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./headerStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header container">
         <a href="./header.html">
-        <p>
+        <p class="text1">
             <b>Header<span><i>Logo</i></span></b>
         </p>
         </a>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#team">Team</a></li>
+        <nav class="nav">
+            <ul class="nav-text">
+                <li class="text1 current"><a href="#about">About</a></li>
+                <li class="text1"><a href="#features">Features</a></li>
+                <li class="text1"><a href="#team">Team</a></li>
             </ul>
         </nav>
-        <a href="#reviews">
+        <a class="button1" href="#reviews">
           Want more
         </a>
         </header>
-        <main>
+        <main class="container">
             <section>
   <h2 id="about">About</h2>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae temporibus similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore molestiae doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero nostrum minus libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam animi ex earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque quis veniam tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi placeat dolor ducimus sit distinctio corporis.</p>
@@ -48,21 +52,24 @@
   <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe fugit modi sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed consequuntur ullam rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam quibusdam, repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio dignissimos id quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est nobis quaerat maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste perferendis enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
 </section>
         </main>
-        <footer>
-    <div>
-            <a href="./header.html">
-        <p>
+        <footer class="container">
+    <div class="flex">
+        <div class="footer-container1">
+        <a href="./header.html">
+        <p class="text1">
             <b>Header<span><i>Logo</i></span></b>
         </p>
         </a>
 
-        <address>
-            <p>Clondulane North, Co. Cork</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d363.97102623835747!2d-8.22421321185695!3d52.14349892724899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sie!4v1765911730379!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <address class="text2" >
+            <p class="footer-text ">Clondulane North, Co. Cork</p>
+            <div class="img">
+            <!-- <iframe class="position" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d363.97102623835747!2d-8.22421321185695!3d52.14349892724899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sie!4v1765911730379!5m2!1sen!2sie" width="450" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
         </address>
     </div>
     
-    <form name="signup_form" autocomplete="on" novalidate>
+    <form class="footer-container2" name="signup_form" autocomplete="on" novalidate>
         <label>
             Follow us:
                 <input type="email" name="email" placeholder="Email to Subscribe"/>
@@ -70,15 +77,16 @@
 
         <button type="submit">Submit</button>
     </form>
-    <div>
-        <p>
+    <div class="footer-container3">
+        <p class="footer-text">
             Links:
         </p>
-        <ul>
-            <li><a href="./header.html">О сервисе = Header site</a></li>
-            <li><a href="./index.html">Вход</a></li>
-            <li><a href="#">Регистрация</a></li>
+        <ul class="">
+            <li class="text3"><a href="./header.html">О сервисе = Header site</a></li>
+            <li class="text3"><a href="./index.html">Вход</a></li>
+            <li class="text3"><a href="#">Регистрация</a></li>
         </ul>
+    </div>
     </div>
         </footer>
 </body>
